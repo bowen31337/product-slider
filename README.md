@@ -23,7 +23,6 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](#running-tests) for more information.
 
 ### `npm run build`
 
@@ -37,3 +36,6 @@ pushstate-server build
 open http://localhost:9000
 ```
 
+### `npm run deploy`
+
+Deploy app to Now server, please refer to this post:  [Zero Configuration Deployment for React app with Zeit Now](https://medium.com/@kawixiao/zero-configuration-deployment-for-react-apps-with-zeits-now-4f002be98c#.eyvj3mjdb)
