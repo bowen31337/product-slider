@@ -22,7 +22,7 @@ class Widget extends Component{
   )
 
   renderThumnail = item => (
-  	(item.thumbnail && item.thumbnail!=='') && <img src={assetsPath+item.thumbnail} className='thumbnail'/>
+  	(item.thumbnail && item.thumbnail!=='') && <img src={assetsPath+item.thumbnail}  role='presentation' className='thumbnail'/>
   ) 
 
   renderPager = (items,page) => {
