@@ -64,7 +64,7 @@ class Widget extends Component{
 
 
   renderDescription = item => (
-  	(item.description && item.description !== '') && <p>{unescape(item.description)}</p>
+  	(item.description && item.description !== '') && <p dangerouslySetInnerHTML={{__html: item.description}}/>
   ) 
 
   componentWillReceiveProps(nextProps) {
