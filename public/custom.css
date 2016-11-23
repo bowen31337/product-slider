@@ -71,6 +71,7 @@ h1.title {
 }
 .title .toggle{
 	float:right;
+	cursor: pointer;
 }
 .fa{
 	color:#437901;
