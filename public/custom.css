@@ -1,0 +1,82 @@
+body{
+	font-family: ProximaNova-Light,Arial,Helvetica,sans-serif;
+}
+.app-wrapper{
+	max-width: 740px;
+	margin:0 auto;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+}
+.item-wrapper .desc{
+	padding: 5px 20px;
+}
+
+.item-wrapper img{
+	max-width: 265px;
+	max-height: 100%;
+	float:left;
+	margin-left: -20px;
+}
+.pager{
+	border-top: 1px solid #e7e7cd;
+	padding: 20px;
+	clear: both;
+}
+.pager .next{
+	float:right;
+	cursor: pointer;
+}
+.pager .next .fa{
+	float:right;
+}
+.pager .next-title{
+	margin-right: 10px;
+}
+.pager .prev-title{
+	margin-left: 10px;
+}
+.pager .next-title,
+.pager .prev-title{
+	display: inline-block;
+	color:#437901;
+	text-decoration: underline;
+	overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width:300px;
+}
+.pager .prev{
+	float:left;
+	cursor: pointer;
+}
+.pager .prev .fa{
+	float:left;
+}
+.pager:after{
+	content:"";
+	clear:both;
+	display: table;
+}
+h1.title {
+	background-color: #e7e7cd;
+  padding: 20px;
+  border-radius: 5px 5px 0 0;
+  font-size: 18px;
+  font-family: ProximaNova-Bold,Arial,Helvetica,sans-serif;
+  margin: 0;
+}
+.title .toggle{
+	float:right;
+}
+.fa{
+	color:#437901;
+}
+
+
+@media all and (max-width:767px) {
+	.pager .next-title,
+	.pager .prev-title{
+		display: none;
+	}
+
+}
