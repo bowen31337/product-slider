@@ -3,12 +3,13 @@
 This project is an "eject" version of create-react-app.
 
 ### Project Description
+This is a passed technical interview test case from GumTree Australia
 - React Framework
 - The content is from content.json file
 - Pager(next, prev)
 - Expand/collapse caret
 - Responsive
-- Error handling 
+- Error handling
 
 ### `npm start`
 
